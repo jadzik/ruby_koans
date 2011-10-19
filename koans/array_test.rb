@@ -4,8 +4,8 @@ class ArrayTest < EdgeCase::TestCase
 
   def test_basic_arrays
     food = [:peanut, :button, :and, :jelly]
-    assert_equal __, food[0]
-    assert_equal __, food.size
+    assert_equal Array, food[0]
+    assert_equal Array, food.size
   end
 
   def test_array_access
